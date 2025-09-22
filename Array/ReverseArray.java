@@ -1,4 +1,4 @@
-public class RevrseArray {
+public class ReverseArray {
     void reverse(int arr[],int start,int end){
         while(start<end){
             int temp = arr[start];
@@ -16,7 +16,7 @@ public class RevrseArray {
     }
     public static void main(String[] args) {
         int [] arr={2,3,4,5,6,7,8,9};
-        RevrseArray sp=new RevrseArray();
+        ReverseArray sp=new ReverseArray();
         System.out.println("before reverse ");
         sp.print(arr);
         
@@ -25,3 +25,4 @@ public class RevrseArray {
         sp.print(arr);
     }
 }
+
